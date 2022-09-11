@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar />
+        <NavBar logoUrl={'https://user-images.githubusercontent.com/87645745/184291912-c83f0d8a-0f6a-41fd-8b97-ea6bd1d0a463.png'} />
 
         <Switch>
           <Route exact path="/aboutpage">
