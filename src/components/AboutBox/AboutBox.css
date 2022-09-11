@@ -1,0 +1,15 @@
+
+.Quota figure {
+    background-color: #e0e6ec;
+    padding: 21px 17px;
+    border: 2px solid green;
+    text-justify: auto;
+    width: 70vw;
+}
+
+@media only screen and (max-width: 510px) {
+
+    .Quota figure {
+        width: 95vw;
+    }
+}
