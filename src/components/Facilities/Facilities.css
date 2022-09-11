@@ -1,0 +1,15 @@
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subIcons {
+    height: 100px;
+}
+.shadowHeading {
+    color: #d9d9d9;
+    text-shadow: #2e2e2e 0 4px 5px;
+}

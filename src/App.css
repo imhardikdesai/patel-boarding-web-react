@@ -1,3 +1,9 @@
 * {
   font-family: 'Baloo Tamma 2', cursive;
 }
+
+body {
+  background: linear-gradient(to bottom, #060064 0%, #035abb 38%, #04c5ed 100%);
+  margin: 0;
+  padding: 0;
+}
