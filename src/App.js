@@ -1,12 +1,12 @@
 import './App.css';
-import Home from './pages/Home';
 import NavBar from './components/NavBar/NavBar';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -14,9 +14,13 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
+
         <Switch>
-          <Route path="/home">
-            <Home />
+          <Route exact path="/aboutpage">
+            <AboutPage />
+          </Route>
+          <Route exact path="/">
+            <HomePage />
           </Route>
         </Switch>
       </Router>
