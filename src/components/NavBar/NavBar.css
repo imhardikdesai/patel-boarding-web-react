@@ -1,0 +1,13 @@
+.navLinks {
+    list-style: none;
+    color: black;
+}
+
+.navLinks:hover {
+    cursor: pointer;
+    border-bottom: 2px solid indigo;
+}
+
+#logo {
+    height: 45px;
+}
