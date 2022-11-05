@@ -7,10 +7,12 @@ import MapBox from '../components/MapBox/MapBox'
 export default function ContactPage() {
     return (
         <>
-            <Banner />
-            <MapBox />
-            <HostelFooter />
-            <CreditFooter />
+            <div>
+                <Banner />
+                <MapBox />
+                <HostelFooter />
+                <CreditFooter />
+            </div>
         </>
     )
 }

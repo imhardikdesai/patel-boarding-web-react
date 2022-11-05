@@ -7,10 +7,10 @@ import HostelFooter from '../components/Footer/HostelFooter'
 export default function AboutPage() {
     return (
         <>
-            <Banner />
-            <AboutBox />
-            <HostelFooter />
-            <CreditFooter />
+                <Banner />
+                <AboutBox />
+                <HostelFooter />
+                <CreditFooter />
         </>
     )
 }

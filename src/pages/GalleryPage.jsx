@@ -5,8 +5,8 @@ import GalleryBox from '../components/GalleryBox/GalleryBox'
 export default function GalleryPage() {
     return (
         <>
-           <Banner/>
-           <GalleryBox/>
+                <Banner />
+                <GalleryBox />
         </>
     )
 }
