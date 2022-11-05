@@ -4,10 +4,10 @@ import './AboutBox.css'
 export default function AboutBox() {
     return (
         <>
-            <section class="Quota container">
-                <figure class="text-center mx-auto">
-                    <h3 class="mb-3">About Us</h3>
-                    <div class="quota">
+            <section className="Quota container">
+                <figure className="text-center mx-auto">
+                    <h3 className="mb-3">About Us</h3>
+                    <div className="quota">
                         <p>આવનારા વર્ષોમાં ભાવનગર શૈક્ષણિક ક્ષેત્રે રાષ્ટ્રીય ફલક પર વિસ્તરી રહ્યું છે ત્યારે, આપણા શહેરમાં
                             પૂર્વ વિસ્તારમાં આપણો સમાજ વધુ ને વધુ વિસ્તૃત થતું જાય છે.દુર દુરથી ગ્રામ્યના અંતરિયાળ વિસ્તારમાંથી
                             આપણા સમાજના દીકરા-દીકરીઓ તેમની તેજસ્વી આંખોના સ્વપ્ના સાકાર કરવા અને માતા-પિતાનું ગૌરવ વધારવા, તેમજ
