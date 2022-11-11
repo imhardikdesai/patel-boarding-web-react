@@ -7,7 +7,7 @@ import GalleryPage from './pages/GalleryPage';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ContactPage from './pages/ContactPage';
 // import { Lines } from 'react-preloaders2';
-import { CustomPreloader } from 'react-preloaders2';
+// import { CustomPreloader } from 'react-preloaders2';
 
 function App() {
 
@@ -34,13 +34,13 @@ function App() {
         </Router>
       </div>
       {/* <Lines background="linear-gradient(180deg, #f95759 0%, #a62022 100%)" />; */}
-      <CustomPreloader>
+      {/* <CustomPreloader>
         <div className="load">
           <hr /><hr /><hr /><hr />
         </div><div className="load">
           <hr /><hr /><hr /><hr />
         </div>
-      </CustomPreloader>
+      </CustomPreloader> */}
     </>
   );
 }
