@@ -8,7 +8,7 @@ export default function GalleryBox() {
     const [myArray, setMyArray] = useState([]);
     const [filterArr, setFilterArr] = useState([]);
     const fetchImages = async () => {
-        const uri = 'https://raw.githubusercontent.com/imhardikdesai/Niru-Patel-Boarding-Hostel/master/json/images.json';
+        const uri = 'https://raw.githubusercontent.com/imhardikdesai/JSON-Data/main/Niru-Patel-Boarding-Hostel/images.json';
         let data = await fetch(uri);
         let images = await data.json();
         setMyArray(images.image);
