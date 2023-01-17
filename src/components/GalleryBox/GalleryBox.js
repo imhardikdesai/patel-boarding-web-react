@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './GalleryBox.css'
+import images from '../../json/images';
 // import jsonURL from '../../json/images.json'
 import ImageBox from './ImageBox'
 
@@ -8,11 +9,13 @@ export default function GalleryBox() {
     const [myArray, setMyArray] = useState([]);
     const [filterArr, setFilterArr] = useState([]);
     const fetchImages = async () => {
-        const uri = 'https://raw.githubusercontent.com/imhardikdesai/JSON-Data/main/Niru-Patel-Boarding-Hostel/images.json';
-        let data = await fetch(uri);
-        let images = await data.json();
-        setMyArray(images.image);
-        setFilterArr(images.image);
+        // const uri = 'https://raw.githubusercontent.com/imhardikdesai/JSON-Data/main/Niru-Patel-Boarding-Hostel/images.json';
+        // let data = await fetch(uri);
+        // let images = await data.json();
+        // setMyArray(images.image);
+        // setFilterArr(images.image);
+        setMyArray(images);
+        setFilterArr(images);
     }
     const filterSelection = (str) => {
         if (str === 'All') {
