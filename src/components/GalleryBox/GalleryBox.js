@@ -46,8 +46,8 @@ export default function GalleryBox() {
 
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
-                        {filterArr.map((element) => {
-                            return <div key={element.imgSource} className="col-md-3 m-2">
+                        {filterArr.length === 0 ? "No Images Available" : filterArr.map((element) => {
+                            return <div key={element.imgSource} className="col-12 col-lg-4 col-xl-3 m-2">
                                 <ImageBox imgSource={element.imgSource} imgCategory={element.imgCateogry} />
                             </div>
                         })}

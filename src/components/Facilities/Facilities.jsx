@@ -18,7 +18,7 @@ export default function Facilities() {
                 </div>
 
                 <div className="row p-3">
-                    <div className="col-md-4 my-1">
+                    <div className="col-lg-4 col-md-6 facilities col-12 my-1">
                         <div className="card">
                             <div className="card-body">
                                 <img className="subIcons" src={homeImage} alt="content" />
@@ -27,7 +27,7 @@ export default function Facilities() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 my-1">
+                    <div className="col-lg-4 col-md-6 facilities col-12 my-1">
                         <div className="card">
                             <div className="card-body">
                                 <img className="subIcons" src={booksImage} alt="content" />
@@ -37,7 +37,7 @@ export default function Facilities() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 my-1">
+                    <div className="col-lg-4 col-md-6 facilities col-12 my-1">
                         <div className="card">
                             <div className="card-body">
                                 <img className="subIcons" src={kitchenimage} alt="content" />
@@ -46,11 +46,7 @@ export default function Facilities() {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className="row p-3">
-
-                    <div className="col-md-4 my-1">
+                    <div className="col-lg-4 col-md-6 facilities col-12 my-1">
                         <div className="card">
                             <div className="card-body">
                                 <img className="subIcons" src={gymImage} alt="content" />
@@ -60,7 +56,7 @@ export default function Facilities() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 my-1">
+                    <div className="col-lg-4 col-md-6 facilities col-12 my-1">
                         <div className="card">
                             <div className="card-body">
                                 <img className="subIcons" src={wifiImage} alt="content" />
@@ -69,7 +65,7 @@ export default function Facilities() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 my-1">
+                    <div className="col-lg-4 col-md-6 facilities col-12 my-1">
                         <div className="card">
                             <div className="card-body">
                                 <img className="subIcons" src={gamesImage} alt="content" />
@@ -79,7 +75,6 @@ export default function Facilities() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
         </>
